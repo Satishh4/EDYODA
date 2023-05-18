@@ -1,0 +1,67 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.Hero{
+    background-color: transparent; 
+    display: flex;
+}
+
+p{
+    font-family: system-ui;
+    font-weight: lighter;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+
+.left{
+    width: 49%;
+    height: 100vh;
+    padding: 70px 0px 0px 144px;
+}
+.right{
+    width: 49%;
+    height: 100vh;
+    padding: 70px 0px 0px 144px;
+}
+.title{
+    width: 799px;
+    height: 70px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 125%;
+    /* identical to box height, or 70px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    
+    color: #FFFFFF;
+}
+
+.sub-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    display: flex;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}

@@ -1,0 +1,84 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 89px;
+    gap: 10px;
+    background: rgb(255, 255, 255);
+    flex: 0 0 auto;
+    order: 0;
+  }
+  
+  /* EDYODA */
+.title-name{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 45px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    background: linear-gradient(90.72deg, #0096FF 42.18%, #0048FF 93.77%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.nav-title{
+    width: 61px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.left-nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    align-items: center;
+}
+
+.right-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+}
+
+.join-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 42px;
+    gap: 10px;
+    color: white;
+    font-weight: bolder;
+    width: 166px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    height: 40px;
+    background: linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
+    border-radius: 52px;
+    flex: none;
+    border: none;
+    order: 2;
+    flex-grow: 0;
+}

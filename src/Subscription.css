@@ -1,0 +1,248 @@
+.subscription-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 24px;
+  gap: 28px;
+  position: absolute;
+  width: 549px;
+  left: 1269px;
+  top: 72px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  color: #3C4852;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.titlee {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125.3%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3C4852;
+}
+
+.circle-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  background: #0096FF;
+  border-radius: 1000px;
+  border: none;
+  padding: 0;
+  margin-right: 16px;
+  color: white;
+  font-size: 14px;
+  justify-content: center;
+}
+
+.circle-icon {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button-text {
+  margin-top: 4px;
+  text-align: center;
+}
+
+.plan-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.plan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  isolation: isolate;
+  
+  width: 501px;
+  height: 65px;
+  
+  background: #D7EDDD;
+  border: 2px solid #47BA68;
+  border-radius: 4px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.plan.selected {
+  border-color: #0096FF;
+}
+
+.warning {
+  color: #FF0000;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.total {
+  margin-top: 24px;
+  width: 546px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #0096FF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0077CC;
+}
+
+.offer-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.offer-info {
+  margin-left: 10px;
+}
+
+/* Add the following styles to highlight the selected offer */
+.offer-label input[type="radio"]:checked + .offer-info {
+  border: 1px solid #0984e3;
+  background-color: #f0f0f0;
+}
+
+.unclickable{
+  /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 12px;
+    isolation: isolate;
+
+    width: 501px;
+    height: 65px;
+
+    background: #E7E7E7;
+    border: 2px solid #BEBEBE;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.subscription-container .plan-row .plan.selected {
+  background: #D7EDDD;
+  border: 2px solid #46b967;
+  border-radius: 4px;
+}
+
+.subscription-container .plan-row .plan.selected h3,
+.subscription-container .plan-row .plan.selected p {
+  color: #3C4852; /* Set the text color to white */
+}
+
+.subscription-container .plan-row .plan.selected .selected-icon {
+  display: block; /* Show the selected icon */
+}
+
+.subscription-container .plan-row .plan.selected.recommended {
+  border: 2px solid #46b967; /* Set a green border for the recommended plan */
+}
+
+.subscription-container .plan-row .plan.selected.recommended .offer-expired {
+  display: none; /* Hide the offer expired message for the recommended plan */
+}
+ 
+.offer-expired{
+  position: absolute;
+  width: 132px;
+  height: 26px;
+  background: #F77171;
+  border-radius: 0px 0px 4px 4px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
+  top: 220px;
+  left: 73px;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+/* .recommended{
+  position: absolute;
+  width: 132px;
+  height: 26px;
+  background: #F77171;
+  border-radius: 0px 0px 4px 4px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
+  top: 220px;
+  left: 73px;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  font-size: 16px;
+} */
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #3C4852;
+}
+
+ 
